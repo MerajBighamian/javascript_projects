@@ -53,7 +53,24 @@ function sum_forEach(array) {
 
 function sum_reduce(array){
     return array.reduce(function(total,value){
-       return total,value
-    });
+       return total+value
+    },10);
 }
 console.log(sum_reduce(list));
+
+
+//----------------------
+// var total= 0; 
+var b = [1,2,3,4,5,6,7,8,9];
+// b.forEach(function(item){
+//     total+=item;
+// })
+
+// console.log(total);
+
+//-------------------------
+
+console.log(b.reduce(function(total,item){
+   total*=item;
+   return total;
+}))

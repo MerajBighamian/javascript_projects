@@ -9,17 +9,20 @@ var c = sum(2,5);
 console.log(c)
 
 function name_owner(){
+    var b= 1;
     console.log("meraj");
 }
 
-function recursive_factorial(n){
+function recursive_func(n){
     if (n == 1){
         return 1;
     }
     else{
-        return n*recursive_factorial(n-1);
+        return n*recursive_func(n-1);
     }
 }
+
+console.log(recursive_func(12));
 
 // function loop(b) {
 //     if(b == 1){

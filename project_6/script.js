@@ -52,3 +52,37 @@ switch(day_of_week){
         break;
    
 }
+
+
+
+var a = 2;
+a= parseInt(a);
+
+function check(a){
+    if (a < 10){
+        switch(true){
+            case (a==2):
+                console.log("is prime 2 ", a);
+                break;
+            case (a==3):
+                console.log("is prime 3 ", a);
+                break;
+            case (a==5):
+                console.log("is prime 5 ", a);
+                break;
+            case (a==7):
+                console.log("is prime 7 ", a);
+                break;
+            default:
+                console.log("is not prime", a);
+                break;
+        }
+    }
+    else if(a==10){
+        console.log("is not prime is 10",a);
+    }
+    else{
+        console.log("out of range",a);
+    }
+}
+console.log(a)

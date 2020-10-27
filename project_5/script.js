@@ -16,3 +16,4 @@ else if(true == 1){
 else{
     console.log("it`s wrong");
 }
+
