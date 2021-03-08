@@ -1,2 +1,2 @@
 # javascript_projects
-diffrent javascript projects
+different javascript projects
